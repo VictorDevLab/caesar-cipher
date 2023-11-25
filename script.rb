@@ -8,7 +8,7 @@ string_array = string.downcase.chars
 for i in string_array do
     ord_array.push(i.ord)
 end
-# loop thr the ord_array to shift the ordinals by num and push them to a new array(ord_array_added)
+# loop thr the ord_array to shift the ordinals by num and push them to a new array(ord_array_added).
 for i in ord_array do
     if i < 97
         ord_array_added.push(i)
